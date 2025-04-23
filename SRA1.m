@@ -2,7 +2,7 @@ clc;
 clear;
 syms x z w real
 
-% Compute the db2 scaling function (phi) and wavelet function (psi)
+% Compute the db3 scaling function (phi) and wavelet function (psi)
 [phi_vals, psi_vals, xval_grid] = wavefun('db3', 10);
 
 % Define the scaling function phi(x) via interpolation
